@@ -1,0 +1,120 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "brand": {
+    "name": "JBA Consultorias e Soluções Públicas",
+    "tagline": "PLANEJAMENTO • GESTÃO • RESULTADOS"
+  },
+  "color": {
+    "jba": {
+      "navy": {
+        "950": {
+          "$value": "#071226",
+          "$type": "color",
+          "$description": "Royal Navy Deep — Hero & Footer institutional backgrounds"
+        },
+        "900": {
+          "$value": "#0B1B3D",
+          "$type": "color",
+          "$description": "Primary Brand Navy — Official JBA Logo & Header background"
+        },
+        "800": {
+          "$value": "#132A56",
+          "$type": "color",
+          "$description": "Secondary Navy — Elevated dark surfaces & cards"
+        },
+        "700": {
+          "$value": "#1E3F7A",
+          "$type": "color",
+          "$description": "Accent Navy — Interactive states, borders, and focus rings"
+        }
+      },
+      "gold": {
+        "600": {
+          "$value": "#A67C2E",
+          "$type": "color",
+          "$description": "Deep Antique Gold — Hover & active metallic accent"
+        },
+        "500": {
+          "$value": "#C59B4B",
+          "$type": "color",
+          "$description": "Primary Brand Gold — Classical column, swoosh, and primary CTAs"
+        },
+        "400": {
+          "$value": "#D4AF37",
+          "$type": "color",
+          "$description": "Bright Metallic Gold — Highlights, badges, and borders"
+        },
+        "200": {
+          "$value": "#EAD8B1",
+          "$type": "color",
+          "$description": "Soft Gold Border — Subtle dividers and card outlines"
+        },
+        "100": {
+          "$value": "#F7F1E1",
+          "$type": "color",
+          "$description": "Light Gold Surface — Institutional highlight boxes & pills"
+        }
+      },
+      "neutral": {
+        "white": {
+          "$value": "#FFFFFF",
+          "$type": "color",
+          "$description": "Pure White — Cards, clean backgrounds, and inverse typography"
+        },
+        "ivory": {
+          "$value": "#FAF8F5",
+          "$type": "color",
+          "$description": "Warm Ivory White — Primary institutional page canvas"
+        },
+        "slate-100": {
+          "$value": "#F1F5F9",
+          "$type": "color",
+          "$description": "Subtle neutral surface"
+        },
+        "slate-200": {
+          "$value": "#E2E8F0",
+          "$type": "color",
+          "$description": "Neutral borders and dividers"
+        },
+        "slate-500": {
+          "$value": "#64748B",
+          "$type": "color",
+          "$description": "Muted metadata and captions"
+        },
+        "slate-700": {
+          "$value": "#334155",
+          "$type": "color",
+          "$description": "Primary body copy text"
+        },
+        "slate-900": {
+          "$value": "#0F172A",
+          "$type": "color",
+          "$description": "High-contrast dark text"
+        }
+      }
+    },
+    "semantic": {
+      "primary": { "$value": "{color.jba.navy.900}", "$type": "color" },
+      "secondary": { "$value": "{color.jba.gold.500}", "$type": "color" },
+      "surface": { "$value": "{color.jba.neutral.ivory}", "$type": "color" },
+      "surface-elevated": { "$value": "{color.jba.neutral.white}", "$type": "color" },
+      "text-primary": { "$value": "{color.jba.navy.900}", "$type": "color" },
+      "text-secondary": { "$value": "{color.jba.neutral.slate-700}", "$type": "color" },
+      "success": {
+        "$value": "#15803D",
+        "$type": "color",
+        "$description": "Inscrições Abertas / Comprovante Validado / Conformidade LRF"
+      },
+      "warning": {
+        "$value": "#B45309",
+        "$type": "color",
+        "$description": "Prazo em Encerramento / Atenção Edital"
+      },
+      "danger": {
+        "$value": "#B91C1C",
+        "$type": "color",
+        "$description": "Erro de Validação / Inscrições Encerradas"
+      }
+    }
+  }
+}

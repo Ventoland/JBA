@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1760" viewBox="0 0 1440 1760" fill="none">
+  <defs>
+    <linearGradient id="heroNavy" x1="0" y1="0" x2="1440" y2="620" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B1B3D" />
+      <stop offset="100%" stop-color="#071226" />
+    </linearGradient>
+    <linearGradient id="goldBtn" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D4AF37" />
+      <stop offset="50%" stop-color="#C59B4B" />
+      <stop offset="100%" stop-color="#A67C2E" />
+    </linearGradient>
+  </defs>
+
+  <!-- Page Canvas: Warm Ivory -->
+  <rect id="Page-Canvas-Home" width="1440" height="1760" fill="#FAF8F5" />
+
+  <!-- 01. Top Credentials Bar -->
+  <g id="01-Top-Credentials-Bar">
+    <rect width="1440" height="38" fill="#071226" />
+    <text x="80" y="24" fill="#F7F1E1" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="12" font-weight="600">
+      ● Advocacia Pública (OAB)   |   ● Contabilidade Governamental &amp; LRF (CRC)   |   ● Banca Oficial de Concursos &amp; Lei 14.133/21
+    </text>
+    <text x="1360" y="24" text-anchor="end" fill="#86EFAC" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="12" font-weight="700">
+      🔒 Protocolo Seguro SSL • LGPD
+    </text>
+  </g>
+
+  <!-- 02. Sticky Main Header -->
+  <g id="02-Main-Header" transform="translate(0, 38)">
+    <rect width="1440" height="86" fill="#0B1B3D" />
+    <line x1="0" y1="86" x2="1440" y2="86" stroke="#C59B4B" stroke-width="2" />
+    <!-- JBA Compact Emblem -->
+    <text x="80" y="54" fill="#FFFFFF" font-family="Cinzel, Georgia, serif" font-size="34" font-weight="700">JBA</text>
+    <path d="M80 60 C 102 44, 130 40, 152 48" stroke="#D4AF37" stroke-width="3" fill="none" />
+    <text x="168" y="42" fill="#FFFFFF" font-family="Cinzel, Georgia, serif" font-size="14" font-weight="700" letter-spacing="1.5">CONSULTORIAS E SOLUÇÕES PÚBLICAS</text>
+    <text x="168" y="60" fill="#EAD8B1" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="10" font-weight="700" letter-spacing="2.5">PLANEJAMENTO • GESTÃO • RESULTADOS</text>
+
+    <!-- Nav Items -->
+    <text x="640" y="48" fill="#D4AF37" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="14" font-weight="700">Início</text>
+    <text x="720" y="48" fill="#FFFFFF" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="14" font-weight="600">Áreas de Atuação</text>
+    <text x="875" y="48" fill="#FFFFFF" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="14" font-weight="600">Concursos Públicos</text>
+    <rect x="1015" y="31" width="110" height="22" rx="11" fill="url(#goldBtn)" />
+    <text x="1070" y="46" text-anchor="middle" fill="#071226" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="10" font-weight="800">ABERTOS (3)</text>
+
+    <!-- Header CTA -->
+    <rect x="1160" y="22" width="200" height="42" rx="8" fill="url(#goldBtn)" />
+    <text x="1260" y="48" text-anchor="middle" fill="#071226" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="13" font-weight="800">Inscrever em Concurso</text>
+  </g>
+
+  <!-- 03. Hero Section -->
+  <g id="03-Hero-Section" transform="translate(0, 124)">
+    <rect width="1440" height="520" fill="url(#heroNavy)" />
+    <rect x="80" y="64" width="340" height="32" rx="16" fill="#132A56" stroke="#C59B4B" />
+    <text x="250" y="85" text-anchor="middle" fill="#D4AF37" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="11" font-weight="700" letter-spacing="2">PLANEJAMENTO • GESTÃO • RESULTADOS</text>
+
+    <text x="80" y="156" fill="#FFFFFF" font-family="Cinzel, Georgia, serif" font-size="42" font-weight="700">Excelência Jurídica, Contábil</text>
+    <text x="80" y="210" fill="#FFFFFF" font-family="Cinzel, Georgia, serif" font-size="42" font-weight="700">e Consultoria Pública Oficial</text>
+    <text x="80" y="264" fill="#D4AF37" font-family="Cinzel, Georgia, serif" font-size="28" font-weight="700">Segurança Institucional para Municípios e Certames</text>
+
+    <text x="80" y="316" fill="#E2E8F0" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="16">
+      Atuação integrada de Advogados Públicos, Contadores Governamentais (LRF/CASP) e Banca Oficial de
+    </text>
+    <text x="80" y="342" fill="#E2E8F0" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="16">
+      Concursos Públicos. Rigor técnico na Nova Lei de Licitações nº 14.133/21 e Tribunais de Contas.
+    </text>
+
+    <!-- Hero CTAs -->
+    <rect x="80" y="388" width="290" height="54" rx="10" fill="url(#goldBtn)" />
+    <text x="225" y="420" text-anchor="middle" fill="#071226" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="15" font-weight="800">Acessar Concursos Abertos →</text>
+
+    <rect x="390" y="388" width="250" height="54" rx="10" fill="#132A56" stroke="#C59B4B" stroke-width="1.5" />
+    <text x="515" y="420" text-anchor="middle" fill="#F7F1E1" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="15" font-weight="700">Conhecer os 3 Pilares</text>
+
+    <!-- Right Emblem Card -->
+    <rect x="900" y="64" width="460" height="390" rx="18" fill="#0B1B3D" stroke="#C59B4B" stroke-width="2" />
+    <text x="1130" y="185" text-anchor="middle" fill="#FFFFFF" font-family="Cinzel, Georgia, serif" font-size="88" font-weight="700">JBA</text>
+    <path d="M970 198 C 1060 135, 1200 120, 1295 152 C 1190 142, 1065 158, 982 208 Z" fill="url(#goldBtn)" />
+    <text x="1130" y="268" text-anchor="middle" fill="#FFFFFF" font-family="Cinzel, Georgia, serif" font-size="17" font-weight="700" letter-spacing="2.5">CONSULTORIAS E SOLUÇÕES PÚBLICAS</text>
+    <line x1="960" y1="292" x2="1300" y2="292" stroke="#C59B4B" stroke-width="1.5" />
+    <polygon points="1130,285 1137,292 1130,299 1123,292" fill="#D4AF37" />
+    <text x="1130" y="325" text-anchor="middle" fill="#EAD8B1" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="12" font-weight="700" letter-spacing="4">PLANEJAMENTO • GESTÃO • RESULTADOS</text>
+    <rect x="950" y="362" width="360" height="54" rx="8" fill="#071226" stroke="#1E3F7A" />
+    <text x="1130" y="394" text-anchor="middle" fill="#86EFAC" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="13" font-weight="700">✓ 3 Editais com Inscrições Abertas Online</text>
+  </g>
+
+  <!-- 04. Three Institutional Pillars Section -->
+  <g id="04-Three-Institutional-Pillars" transform="translate(0, 700)">
+    <text x="720" y="30" text-anchor="middle" fill="#A67C2E" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="12" font-weight="800" letter-spacing="3">CORPO TÉCNICO MULTIDISCIPLINAR</text>
+    <text x="720" y="72" text-anchor="middle" fill="#0B1B3D" font-family="Cinzel, Georgia, serif" font-size="32" font-weight="700">Três Pilares de Autoridade Pública</text>
+
+    <!-- Pillar 1: Advogado -->
+    <g id="Card-Pilar-Advocacia" transform="translate(80, 110)">
+      <rect width="405" height="340" rx="16" fill="#FFFFFF" stroke="#E2E8F0" />
+      <rect width="405" height="6" rx="3" fill="#0B1B3D" />
+      <rect x="28" y="32" width="140" height="26" rx="13" fill="#F7F1E1" />
+      <text x="98" y="49" text-anchor="middle" fill="#A67C2E" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="11" font-weight="800">PILAR I • OAB</text>
+      <text x="28" y="96" fill="#0B1B3D" font-family="Cinzel, Georgia, serif" font-size="22" font-weight="700">Advocacia &amp; Direito Público</text>
+      <text x="28" y="136" fill="#334155" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="14">• Assessoria Jurídica para Prefeituras e Câmaras</text>
+      <text x="28" y="166" fill="#334155" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="14">• Defesa Técnica perante TCE, TCU e Ministério Público</text>
+      <text x="28" y="196" fill="#334155" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="14">• Implantação integral da Lei nº 14.133/2021</text>
+      <text x="28" y="226" fill="#334155" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="14">• Processos Administrativos e Sindicâncias</text>
+      <text x="28" y="296" fill="#0B1B3D" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="14" font-weight="700">Explorar Diretoria Jurídica →</text>
+    </g>
+
+    <!-- Pillar 2: Contador -->
+    <g id="Card-Pilar-Contabilidade" transform="translate(517, 110)">
+      <rect width="405" height="340" rx="16" fill="#FFFFFF" stroke="#E2E8F0" />
+      <rect width="405" height="6" rx="3" fill="#C59B4B" />
+      <rect x="28" y="32" width="160" height="26" rx="13" fill="#F7F1E1" />
+      <text x="108" y="49" text-anchor="middle" fill="#A67C2E" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="11" font-weight="800">PILAR II • CRC / LRF</text>
+      <text x="28" y="96" fill="#0B1B3D" font-family="Cinzel, Georgia, serif" font-size="22" font-weight="700">Contabilidade Pública</text>
+      <text x="28" y="136" fill="#334155" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="14">• Contabilidade Aplicada ao Setor Público (CASP)</text>
+      <text x="28" y="166" fill="#334155" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="14">• Gestão Fiscal, Limites de Pessoal e LRF (LC 101/00)</text>
+      <text x="28" y="196" fill="#334155" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="14">• PPA, LDO, LOA, SICONFI, RREO e RGF</text>
+      <text x="28" y="226" fill="#334155" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="14">• Prestação de Contas Anual de Gestão e Governo</text>
+      <text x="28" y="296" fill="#0B1B3D" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="14" font-weight="700">Explorar Diretoria Contábil →</text>
+    </g>
+
+    <!-- Pillar 3: Consultor & Concursos -->
+    <g id="Card-Pilar-Consultoria-Concursos" transform="translate(955, 110)">
+      <rect width="405" height="340" rx="16" fill="#0B1B3D" stroke="#C59B4B" stroke-width="2" />
+      <rect x="28" y="32" width="210" height="26" rx="13" fill="url(#goldBtn)" />
+      <text x="133" y="49" text-anchor="middle" fill="#071226" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="11" font-weight="800">PILAR III • BANCA OFICIAL</text>
+      <text x="28" y="96" fill="#FFFFFF" font-family="Cinzel, Georgia, serif" font-size="22" font-weight="700">Consultoria &amp; Concursos</text>
+      <text x="28" y="136" fill="#E2E8F0" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="14">• Planejamento e Execução de Concursos Públicos</text>
+      <text x="28" y="166" fill="#E2E8F0" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="14">• Inscrições Online com Protocolo e Hash SHA-256</text>
+      <text x="28" y="196" fill="#E2E8F0" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="14">• Reforma Administrativa e Estatuto dos Servidores</text>
+      <text x="28" y="226" fill="#E2E8F0" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="14">• Estudo de Impacto Orçamentário-Financeiro</text>
+      <rect x="28" y="266" width="349" height="46" rx="8" fill="url(#goldBtn)" />
+      <text x="202" y="294" text-anchor="middle" fill="#071226" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="14" font-weight="800">Ir para Central de Concursos →</text>
+    </g>
+  </g>
+
+  <!-- 05. Featured Concursos Section -->
+  <g id="05-Featured-Concursos-Banner" transform="translate(80, 1210)">
+    <rect width="1280" height="260" rx="20" fill="#0B1B3D" stroke="#C59B4B" stroke-width="2" />
+    <text x="56" y="64" fill="#D4AF37" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="12" font-weight="800" letter-spacing="2">PORTAL DO CANDIDATO • INSCRIÇÕES ONLINE</text>
+    <text x="56" y="110" fill="#FFFFFF" font-family="Cinzel, Georgia, serif" font-size="30" font-weight="700">Concursos Públicos e Processos Seletivos Abertos</text>
+    <text x="56" y="150" fill="#CBD5E1" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="15">
+      Inscreva-se diretamente na plataforma oficial JBA. Validação imediata de CPF, escolha de cargo, solicitação de
+    </text>
+    <text x="56" y="176" fill="#CBD5E1" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="15">
+      isenção (CadÚnico) e emissão instantânea do Comprovante Oficial de Inscrição com QR/Hash de autenticidade.
+    </text>
+    <rect x="920" y="96" width="300" height="64" rx="12" fill="url(#goldBtn)" />
+    <text x="1070" y="134" text-anchor="middle" fill="#071226" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="16" font-weight="800">Realizar Inscrição Agora →</text>
+  </g>
+
+  <!-- 06. Institutional Footer -->
+  <g id="06-Institutional-Footer" transform="translate(0, 1540)">
+    <rect width="1440" height="220" fill="#071226" />
+    <rect width="1440" height="4" fill="url(#goldBtn)" />
+    <text x="80" y="70" fill="#FFFFFF" font-family="Cinzel, Georgia, serif" font-size="22" font-weight="700">JBA CONSULTORIAS E SOLUÇÕES PÚBLICAS</text>
+    <text x="80" y="100" fill="#D4AF37" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="12" font-weight="700" letter-spacing="3">PLANEJAMENTO • GESTÃO • RESULTADOS</text>
+    <text x="80" y="140" fill="#94A3B8" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="13">
+      Advocacia Pública (OAB) • Contabilidade Governamental (CRC) • Consultoria Oficial &amp; Concursos Públicos — Conformidade LGPD (Lei 13.709/18)
+    </text>
+    <text x="1360" y="140" text-anchor="end" fill="#EAD8B1" font-family="Plus Jakarta Sans, Inter, sans-serif" font-size="13">© 2025 JBA Consultorias. Todos os direitos reservados.</text>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "spacing": {
+    "0": { "$value": "0px", "$type": "dimension", "px": 0 },
+    "1": { "$value": "0.25rem", "$type": "dimension", "px": 4 },
+    "2": { "$value": "0.5rem", "$type": "dimension", "px": 8 },
+    "3": { "$value": "0.75rem", "$type": "dimension", "px": 12 },
+    "4": { "$value": "1rem", "$type": "dimension", "px": 16 },
+    "5": { "$value": "1.25rem", "$type": "dimension", "px": 20 },
+    "6": { "$value": "1.5rem", "$type": "dimension", "px": 24 },
+    "8": { "$value": "2rem", "$type": "dimension", "px": 32 },
+    "10": { "$value": "2.5rem", "$type": "dimension", "px": 40 },
+    "12": { "$value": "3rem", "$type": "dimension", "px": 48 },
+    "16": { "$value": "4rem", "$type": "dimension", "px": 64 },
+    "20": { "$value": "5rem", "$type": "dimension", "px": 80 },
+    "24": { "$value": "6rem", "$type": "dimension", "px": 96 }
+  },
+  "layout": {
+    "containerMax": { "$value": "1280px", "$type": "dimension", "px": 1280 },
+    "containerNarrow": { "$value": "960px", "$type": "dimension", "px": 960 },
+    "headerHeight": { "$value": "84px", "$type": "dimension", "px": 84 },
+    "topBarHeight": { "$value": "36px", "$type": "dimension", "px": 36 }
+  },
+  "radii": {
+    "xs": { "$value": "4px", "$type": "dimension", "px": 4 },
+    "sm": { "$value": "6px", "$type": "dimension", "px": 6 },
+    "md": { "$value": "10px", "$type": "dimension", "px": 10 },
+    "lg": { "$value": "16px", "$type": "dimension", "px": 16 },
+    "xl": { "$value": "24px", "$type": "dimension", "px": 24 },
+    "pill": { "$value": "9999px", "$type": "dimension", "px": 9999 }
+  }
+}

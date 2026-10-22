@@ -1,0 +1,21 @@
+{
+  "name": "JBA Consultorias e Soluções Públicas",
+  "short_name": "JBA Consultorias",
+  "description": "Advocacia Pública, Contabilidade Governamental (LRF) e Consultoria Oficial de Concursos Públicos — Planejamento, Gestão, Resultados.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/jba-vector-mark.svg",
+      "sizes": "1056x470",
+      "type": "image/svg+xml"
+    }
+  ],
+  "theme_color": "#06143a",
+  "background_color": "#FAF7F0",
+  "display": "standalone"
+}

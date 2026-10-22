@@ -1,0 +1,103 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "JBA Consultorias — Brand Tokens": {
+    "color": {
+      "navy": {
+        "950": { "$value": "#071226", "$type": "color", "$description": "Royal Navy Deep (Hero & Footer)" },
+        "900": { "$value": "#0B1B3D", "$type": "color", "$description": "Primary Brand Navy (JBA Official)" },
+        "800": { "$value": "#132A56", "$type": "color", "$description": "Secondary Navy (Elevated Dark Surface)" },
+        "700": { "$value": "#1E3F7A", "$type": "color", "$description": "Accent Navy (Interactive & Focus)" }
+      },
+      "gold": {
+        "600": { "$value": "#A67C2E", "$type": "color", "$description": "Deep Antique Gold" },
+        "500": { "$value": "#C59B4B", "$type": "color", "$description": "Primary Brand Gold (Pillar & Swoosh)" },
+        "400": { "$value": "#D4AF37", "$type": "color", "$description": "Bright Metallic Gold (Badges & Highlights)" },
+        "200": { "$value": "#EAD8B1", "$type": "color", "$description": "Soft Gold Border" },
+        "100": { "$value": "#F7F1E1", "$type": "color", "$description": "Light Gold Surface" }
+      },
+      "surface": {
+        "ivory": { "$value": "#FAF8F5", "$type": "color", "$description": "Warm Ivory White Canvas" },
+        "white": { "$value": "#FFFFFF", "$type": "color", "$description": "Pure White Card Surface" },
+        "slate-100": { "$value": "#F1F5F9", "$type": "color" },
+        "slate-200": { "$value": "#E2E8F0", "$type": "color" }
+      },
+      "text": {
+        "primary": { "$value": "#0B1B3D", "$type": "color" },
+        "secondary": { "$value": "#334155", "$type": "color" },
+        "muted": { "$value": "#64748B", "$type": "color" },
+        "inverse": { "$value": "#FFFFFF", "$type": "color" }
+      },
+      "status": {
+        "success": { "$value": "#15803D", "$type": "color", "$description": "Inscrições Abertas / Validado" },
+        "warning": { "$value": "#B45309", "$type": "color", "$description": "Prazo em Encerramento" },
+        "danger": { "$value": "#B91C1C", "$type": "color", "$description": "Erro / Encerrado" }
+      }
+    },
+    "typography": {
+      "fontFamilies": {
+        "heading": { "$value": "Cinzel", "$type": "fontFamily" },
+        "body": { "$value": "Plus Jakarta Sans", "$type": "fontFamily" },
+        "mono": { "$value": "JetBrains Mono", "$type": "fontFamily" }
+      },
+      "fontSizes": {
+        "xs": { "$value": "12px", "$type": "dimension" },
+        "sm": { "$value": "14px", "$type": "dimension" },
+        "base": { "$value": "16px", "$type": "dimension" },
+        "lg": { "$value": "18px", "$type": "dimension" },
+        "xl": { "$value": "20px", "$type": "dimension" },
+        "2xl": { "$value": "24px", "$type": "dimension" },
+        "3xl": { "$value": "30px", "$type": "dimension" },
+        "4xl": { "$value": "36px", "$type": "dimension" },
+        "5xl": { "$value": "48px", "$type": "dimension" }
+      }
+    },
+    "spacing": {
+      "xs": { "$value": "4px", "$type": "dimension" },
+      "sm": { "$value": "8px", "$type": "dimension" },
+      "md": { "$value": "16px", "$type": "dimension" },
+      "lg": { "$value": "24px", "$type": "dimension" },
+      "xl": { "$value": "32px", "$type": "dimension" },
+      "2xl": { "$value": "48px", "$type": "dimension" },
+      "3xl": { "$value": "80px", "$type": "dimension" }
+    },
+    "borderRadius": {
+      "sm": { "$value": "6px", "$type": "dimension" },
+      "md": { "$value": "10px", "$type": "dimension" },
+      "lg": { "$value": "16px", "$type": "dimension" },
+      "pill": { "$value": "9999px", "$type": "dimension" }
+    },
+    "boxShadow": {
+      "card": {
+        "$value": {
+          "x": "0px",
+          "y": "8px",
+          "blur": "24px",
+          "spread": "0px",
+          "color": "rgba(11, 27, 61, 0.08)",
+          "type": "dropShadow"
+        },
+        "$type": "shadow"
+      },
+      "goldGlow": {
+        "$value": {
+          "x": "0px",
+          "y": "8px",
+          "blur": "25px",
+          "spread": "0px",
+          "color": "rgba(197, 155, 75, 0.28)",
+          "type": "dropShadow"
+        },
+        "$type": "shadow"
+      }
+    }
+  },
+  "$themes": [
+    {
+      "id": "jba-institutional-light",
+      "name": "JBA Institutional (Navy, Gold & Ivory)",
+      "selectedTokenSets": {
+        "JBA Consultorias — Brand Tokens": "enabled"
+      }
+    }
+  ]
+}

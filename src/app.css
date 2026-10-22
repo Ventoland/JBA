@@ -1,0 +1,350 @@
+/* ==========================================================================
+   JBA Consultorias e Soluções Públicas — Design System Minimalista Institucional
+   SIMPLIFICANDO ROTINAS, OTIMIZANDO RESULTADOS
+   Paleta oficial derivada da Logo JBA:
+   Navy (#06143a / #081c4a / #16398a) | Gold (#a2721a / #c49539 / #f9d567)
+   Warm Ivory (#FAF7F0) | Crisp White (#FFFFFF)
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Paleta Azul Institucional (Logo JBA) */
+  --jba-navy-950: #040b1a;
+  --jba-navy-900: #06143a;
+  --jba-navy-800: #081c4a;
+  --jba-navy-700: #16398a;
+  --jba-navy-600: #234ba6;
+  --jba-navy-100: #e6ecf7;
+  --jba-navy-50: #f3f6fc;
+
+  /* Paleta Dourado Institucional (Logo JBA) */
+  --jba-gold-700: #7c5510;
+  --jba-gold-600: #a2721a;
+  --jba-gold-500: #c49539;
+  --jba-gold-400: #e0b84f;
+  --jba-gold-300: #f9d567;
+  --jba-gold-200: #f3e2aa;
+  --jba-gold-100: #faf2d7;
+  --jba-gold-50: #fdfaf0;
+
+  /* Superfícies Minimalistas */
+  --jba-ivory: #FAF7F0;
+  --jba-parchment: #F3EFE4;
+  --jba-white: #FFFFFF;
+  --jba-border: #E6E1D6;
+  --jba-border-strong: #CFC8B8;
+  --jba-slate-50: #F8FAFC;
+  --jba-slate-100: #F1F5F9;
+  --jba-slate-200: #E4E1D8;
+  --jba-slate-300: #CFCBC0;
+  --jba-slate-500: #64748B;
+  --jba-slate-600: #475569;
+  --jba-slate-700: #2C3647;
+  --jba-slate-800: #1A2333;
+  --jba-slate-900: #0A1324;
+
+  /* Status Semânticos */
+  --jba-success: #156C36;
+  --jba-success-bg: #EBF9F0;
+  --jba-warning: #9A5B06;
+  --jba-warning-bg: #FEF5E7;
+  --jba-danger: #B42318;
+  --jba-danger-bg: #FEE4E2;
+
+  /* Tipografia */
+  --font-heading: 'Cinzel', Georgia, serif;
+  --font-editorial: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Layout & Raios Limpos */
+  --container-max: 1340px;
+  --container-narrow: 920px;
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 14px;
+  --radius-pill: 9999px;
+
+  /* Transições Discretas */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Sombras Sutis */
+  --shadow-sm: 0 2px 8px rgba(6, 20, 58, 0.04);
+  --shadow-md: 0 6px 20px rgba(6, 20, 58, 0.06);
+
+  --gradient-navy: linear-gradient(135deg, #081c4a 0%, #06143a 100%);
+  --gradient-gold: linear-gradient(95deg, #b58324 0%, #e5c158 50%, #c49539 100%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--jba-slate-700);
+  background-color: var(--jba-ivory);
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--jba-ivory);
+  color: var(--jba-slate-700);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .font-serif-institutional {
+  font-family: var(--font-heading);
+  color: var(--jba-navy-900);
+  line-height: 1.22;
+  letter-spacing: 0.01em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.2s var(--ease-out), background-color 0.2s var(--ease-out), border-color 0.2s var(--ease-out);
+}
+
+img, svg {
+  max-width: 100%;
+  display: block;
+}
+
+button, input, select, textarea {
+  font: inherit;
+  max-width: 100%;
+  min-width: 0;
+}
+
+/* ==========================================================================
+   Containers & Seções
+   ========================================================================== */
+
+.container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.container-narrow {
+  width: 100%;
+  max-width: var(--container-narrow);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.section {
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+
+.section-sm {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.section-navy {
+  background: var(--jba-navy-900);
+  color: var(--jba-ivory);
+  border-top: 1px solid rgba(196, 149, 57, 0.25);
+  border-bottom: 1px solid rgba(196, 149, 57, 0.25);
+}
+
+.section-navy h1,
+.section-navy h2,
+.section-navy h3,
+.section-navy h4 {
+  color: var(--jba-ivory);
+}
+
+.section-white {
+  background-color: var(--jba-white);
+  border-top: 1px solid var(--jba-border);
+  border-bottom: 1px solid var(--jba-border);
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.75rem;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+@media (max-width: 1024px) {
+  .grid-4,
+  .grid-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .container,
+  .container-narrow {
+    padding-left: 1.15rem;
+    padding-right: 1.15rem;
+  }
+  .section {
+    padding-top: 3.25rem;
+    padding-bottom: 3.25rem;
+  }
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ==========================================================================
+   Botões e Controles Minimalistas
+   ========================================================================== */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.7rem 1.35rem;
+  border-radius: var(--radius-md);
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background-color 0.2s var(--ease-out), border-color 0.2s var(--ease-out), transform 0.15s var(--ease-out);
+  line-height: 1.2;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.btn:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+.btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.btn-gold {
+  background: var(--jba-gold-500);
+  color: var(--jba-navy-950);
+  font-weight: 700;
+}
+
+.btn-gold:hover:not(:disabled) {
+  background: var(--jba-gold-400);
+}
+
+.btn-navy {
+  background: var(--jba-navy-900);
+  color: var(--jba-ivory);
+}
+
+.btn-navy:hover:not(:disabled) {
+  background: var(--jba-navy-800);
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: var(--jba-navy-900);
+  border: 1px solid rgba(8, 28, 74, 0.25);
+}
+
+.btn-outline:hover:not(:disabled) {
+  background-color: var(--jba-navy-900);
+  color: var(--jba-white);
+}
+
+.btn-outline-gold {
+  background-color: transparent;
+  color: var(--jba-gold-300);
+  border: 1px solid rgba(249, 213, 103, 0.4);
+}
+
+.btn-outline-gold:hover:not(:disabled) {
+  background: rgba(249, 213, 103, 0.12);
+  border-color: var(--jba-gold-300);
+}
+
+/* Superfícies e Cartões Limpos */
+.doppelrand-shell {
+  padding: 0;
+  border-radius: var(--radius-lg);
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.doppelrand-core,
+.card-institutional {
+  background-color: var(--jba-white);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--jba-border);
+  box-shadow: var(--shadow-sm);
+  padding: 1.75rem;
+  height: 100%;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.65rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  border-radius: var(--radius-pill);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+@media print {
+  body {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+  }
+
+  .no-print,
+  header,
+  footer,
+  nav {
+    display: none !important;
+  }
+
+  .printable-receipt {
+    box-shadow: none !important;
+    border: 1px solid #06143a !important;
+    padding: 1.5rem !important;
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
